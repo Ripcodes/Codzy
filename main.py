@@ -1,7 +1,7 @@
 import re
 import logging
 import os
-import promomptbuilder
+import promptbuilder
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
