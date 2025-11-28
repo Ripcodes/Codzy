@@ -1,11 +1,11 @@
 import json
 
-# Define the Image Rules constant to reuse it
+# --- CRITICAL: Instructions for the AI on how to handle images ---
 IMAGE_RULES = """
 ### IMAGE RULES (CRITICAL):
 1. Do NOT invent random image URLs (e.g., do not use "images/hero.jpg" or "unsplash.com/...").
 2. Instead, whenever you need an image, use this EXACT placeholder format inside the src attribute:
-   `src="[IMAGE: description of image]"`
+   src="[IMAGE: description of image]"
    
    Examples:
    - CORRECT: <img src="[IMAGE: modern corporate office skyscraper]" alt="Office" />
