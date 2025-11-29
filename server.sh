@@ -50,8 +50,8 @@ echo "=========================================="
 read -p "Enter choice [1 or 2]: " model_choice
 
 case $model_choice in
-  1) MODEL="qwen2.5-coder:7b" ;;
-  2) MODEL="deepseek-coder:6.7b" ;;
+  1) MODEL="gpt-oss:20b" ;;
+  2) MODEL="gpt-oss:120b" ;;
   *) echo "❌ Invalid choice! Defaulting to qwen2.5-coder:7b"; MODEL="qwen2.5-coder:7b" ;;
 esac
 
